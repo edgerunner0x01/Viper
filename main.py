@@ -127,8 +127,8 @@ def banner():
 
 def main():
     parser=argparse.ArgumentParser(description='Viper - Simple tool for cracking/bruteforcing OoredooEZ Accounts')
-    parser.add_argument("EmailsList", type=str , help="Emails worlist PATH ",metavar="<Emails:PATH>")
-    parser.add_argument("PasswordsList", type=str , help="Passwords worlist PATH ",metavar="<Passwords:PATH>")
+    parser.add_argument("EmailsList", type=str , help="Emails wordlist PATH ",metavar="<Emails:PATH>")
+    parser.add_argument("PasswordsList", type=str , help="Passwords wordlist PATH ",metavar="<Passwords:PATH>")
     parser.add_argument("-x","--proxies", type=str , help="Proxies JSON file PATH ",metavar="<Proxies:PATH>")
     parser.add_argument("-v","--version", action="version" , help="Viper Version",version="Viper 1.0")
     args = parser.parse_args()
