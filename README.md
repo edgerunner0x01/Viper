@@ -1,4 +1,3 @@
 # Viper
-## Proxies
-> Proxies must be in this format :
-*{"http":"http://1.2.3.4:80"}*
+### Proxies
+> Proxies must be in a certain format {'http':'http://1.2.3.4:80'}
